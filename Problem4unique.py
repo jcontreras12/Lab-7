@@ -8,5 +8,6 @@ def list(list):
             if i not in l:
                 l.append(i)
         return l
- x = (1, 3, 3, 3, 6, 2, 3, 5)
+ x = (1, 3, 3, 3, 6, 2, 3, 5)  #indentation error
+x = [1, 3, 3, 3, 6, 2, 3, 5]
 print(list(x))
